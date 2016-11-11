@@ -15,7 +15,6 @@ import java.util.Set;
 public class DecisionTree {
 	static int flag = 1;
 	static int leaftNumber = 0;
-
 	static int totalNodes = 0;
 	static int leafNodes = 0;
 	static int rowTraining;
@@ -111,7 +110,6 @@ public class DecisionTree {
 		}
 
 	}
-
 	static Object pruneDecisionTree(int randomNode, Map<Object, List<Sample>> categoryToSamples, String[] attrNames) {
 		// Re-generate the decision tree with randomly prune the previous
 		// decision tree to see if validation accuracy increases
